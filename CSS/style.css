@@ -1,0 +1,149 @@
+/***********/
+/*HERO SECTION*/
+/**************/
+.hero-section{
+  position: relative;
+  max-width: 700rem;
+}
+.hero-img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: block; 
+}
+.heroText{
+  position :absolute ;
+  top:33%;
+  left: 7%;
+  width: 70rem;
+  word-wrap:break-word;
+  text-align: center;
+}
+.heroText p{
+  margin-top: 4rem;
+  color : #9b9b9b;
+}
+/**************/
+/*Profile section */
+/*****************/
+
+.profile-text{
+  align-self: center;
+  width: 80%;
+  word-wrap:break-word;
+}
+.profile-sub-text-container{
+  display: block;
+  margin-top: 2rem;
+  margin-bottom: 8rem;
+}
+.profile-main-text{
+  width: 100%;
+  word-wrap:break-word;
+}
+.btn-profile{
+    position: relative;
+    background-color: #9b9b9b;
+    color: inherit;
+    padding: 1rem 3.8rem 1rem 2.6rem;
+}
+
+.arrow-icon{
+  position: absolute;
+  color: #eee7e7; 
+  transform: translate(25%,25%);
+}
+/**************/
+/*Service section */
+/*****************/
+.service-img-container{
+  justify-self: start;
+}
+.service-img{
+  width: 65rem;
+  height: auto;
+}
+.our-service{
+  margin-bottom: 6rem;
+}
+.service-text-container{
+  margin-top: 8rem;
+  justify-self: start;
+}
+.number{
+  display: inline;
+  font-weight: 600;
+  font-size: 4rem;
+  color: #9b998a;
+}
+.services-header-text{
+  display: inline;
+}
+.service-rest-text{
+  margin: 2rem 0rem 10rem 6rem;
+  width: 80%;
+  word-wrap:break-word;
+}
+  /************/
+  /*client-section*/
+  /****************/
+  .client-section{
+    background-color: white;
+    color: black  ;
+    padding-bottom: 20rem;
+  }
+  .client-description-text{
+    display: inline-block;
+    margin-top: 2rem;
+    line-height: 2.9rem;
+    width: 60%;
+    word-wrap:break-word;
+    margin-bottom: 10rem;
+  }
+  .client-sub-container{
+    width: 50rem;
+    background-color: black;
+    padding-bottom: 3rem;
+  }
+  .client-sub-container img {
+    width: 100%;
+  }
+  .img-cap{
+    display: inline-block;
+    /* background-color: black; */
+    color: white;
+    font-weight: 600;
+    transform: translate(20%,40%);
+  }
+  .quote{
+    padding: 40rem 20rem;
+    text-align: center;
+  }
+  .quote-author{
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+    color: #9b998a;
+  }
+  .left-footer{
+    justify-self: start;
+  }
+  .left-footer-header{
+    margin-bottom: 4rem;
+  }
+  .left-footer-img{
+    width: 75rem;
+    height: auto;
+  }
+  .right-footer{
+    align-self: center;
+  }
+  .right-footer-header{
+    color: #9b998a;
+  }
+  .right-footer-text{
+    margin: 1rem 0 3rem 0;
+  }
+  .right-footer-text{
+    font-size: 2rem;
+  }
